@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //task1 traffic signals
+        let color=prompt("Enter Any Traffic Color");
+        switch(color){
+        case "red":
+        console.log("STOP")
+        break;
+        case "green":
+        console.log("GET READY")
+        break;
+        case "yellow":
+        console.log("GO")
+        }
+
+        //task2 discount calculator
+        let totalbill$=prompt("Enter Your Total Bill Amount in $Dollors"); 
+        if(totalbill$>= 200){
+            console.log("15% Discount")}
+        else if(totalbill$>=101){
+            console.log("10% Discount")}
+        else if(totalbill$>=50){
+            console.log("5% Discount")}
+        else{
+            console.log("NO DISCOUNT")}
+        
+        //task3 Restaurant menu
+        let dish=prompt("Enter The Dish Name to know the Price");
+        switch(dish){
+        case "veg biriyani":
+        console.log("Rs.150/-")
+        break;
+        case "veg shawarma":
+        console.log("Rs.130/-")
+        break;
+        case "veg pula":
+        console.log("Rs.120/-")
+        break;
+        case "veg fried rice":
+        console.log("Rs.100/-")
+        }
+
+        // // task4 simple calculator
+        let number1=+prompt("Enter any one number");
+        let number2=+prompt("Enter any another number");
+        let operator=prompt("Enter the Operator to be preformed");
+        switch(operator){
+        case "+":
+        console.log(number1+number2);
+        break;
+        case "-":
+        console.log(number1-number2);
+        break;
+        case "*":
+        console.log(number1*number2);
+        break;
+        case "/":
+        console.log(number1/number2);
+        break;
+        case "%":
+        console.log(number1%number2);
+        break;
+        case "**":
+        console.log(number1**number2);
+        }
+        
+        // task5 Greeting
+        
+        let day=prompt("enter ur day");
+        switch(day){
+        case "monday":console.log("Start your week strong!");
+        break;
+        case "tuesday":console.log("keep going");
+        break;
+        case "wednesday":console.log("Halfway there!");
+        break;
+        case "thursday":console.log("Almost the weekend!");
+        break;
+        case "friday":console.log("Happy Friday!");
+        break;
+        case "saturday":console.log("weekenddd");
+        break;
+        case "sunday":console.log("party party yaah...");
+        break;
+        default:console.log("invalid");
+}
+        
+    </script>
+</body>
+</html>
